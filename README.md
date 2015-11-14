@@ -118,10 +118,26 @@ A continuacion agrego los comandos usados:
  * git tag -n
  3. Borrar la rama v0.2
  * git branch -d v0.2
+
+**Comandos finales de los Ejercicios de Git**
+
+ * git add README.MD
+ * git status
+ * git log
+ * git commit -m "Modificado el archivo README.md"
  * git push https://github.com/Antonio2106/campusciff master
 
-Ver mi [GitHub](https://github.com/Antonio2106)
+**Ejercicios Markdown Pag 18**
 
+|   Nombre   |   GitHub   |
+|------------|------------|
+| Juan Diaz  |  jjdiazl   |
+| Borja M    |  bmpozo    |
+| Alfonso P  |  alfonsops |
+
+
+
+Ver mi [GitHub](https://github.com/Antonio2106)
 
 Repo on GitHub - Master in Big Data - Data Science Toolkit
 
