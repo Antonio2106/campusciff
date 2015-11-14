@@ -74,11 +74,54 @@ A continuacion agrego los comandos usados:
  * git add 2.txt
  * git commit -m "Archivo creado"
  4. Subir los cambios
+ * git push https://github.com/Antonio2106/campusciff v0.2
+  
+ **Ejercicios 2.7 Pag 13**
+
+ 1. Posicionarse en la rama master
+ * git checkout master
+ 2. Hacer un merge de la rama v0.2 en la rama master 
+ * git merge v0.2
+
+ **Ejercicios 2.8 Pag 14**
+
+ 1. Poner Hola en el fichero 1.txt
+ * vi 1.txt
+ * git add 1.txt
+ * git commit -m "Hola en el fichero 1.txt"
+ 2. Poner Adios en el fichero 1.txt
+ * git checkout v0.2
+ * vi 1.txt
+ * git add 1.txt
+ * git commit -m "Adios en el fichero 1.txt"
+ 3. Posicionarse en la rama master
+ * git checkout master
+ * git merge v0.2 # Muestra error por discrepancia
+ # Auto-merging 1.txt
+ # CONFLICT (content): Merge conflict in 1.txt
+ # Automatic merge failed; fix conflicts and then commit the result.
+ 4. Listar las ramas con merge y sin merge
+ * git branch --merged
+ * git branch --no-merged
+ 5. Arreglar el conflicto anterior
+ * git status
+ * git diff
+ * vi 1.txt
+ * git add 1.txt
+ * git commit -a
+
+**Ejercicios 2.9 Pag 15**
+
+ 1. Crear un tag v0.2
+ * git tag -a v0.2 -m "Etiqueta 2 agregada"
+ 2. Listar los distintos commits con sus ramas y sus tags
+ * git tag -n
+ 3. Borrar la rama v0.2
+ * git branch -d v0.2
  * git push https://github.com/Antonio2106/campusciff master
-					       
-					        
 
 Ver mi [GitHub](https://github.com/Antonio2106)
+
 
 Repo on GitHub - Master in Big Data - Data Science Toolkit
 
